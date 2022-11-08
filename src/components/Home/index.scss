@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap");
+
+.home-page {
+  overflow: hidden;
+  position: absolute;
+
+  video {
+    height: 100%;
+    width: 100%; /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 * 9 / 16 */
+    top: -25%;
+    object-fit: cover;
+  }
+
+  .text-zone {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 30%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    mix-blend-mode: screen;
+    color: #000;
+  }
+
+  h1 {
+    position: relative;
+    left: 10%;
+    top: 30%;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 900;
+    font-size: 250px;
+    margin: 0;
+    line-height: 100px;
+    white-space: wrap;
+
+    span {
+      margin-top: 15px;
+      white-space: nowrap;
+    }
+  }
+
+  h2 {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    color: #000;
+    font-size: 45px;
+    left: 11%;
+    top: 32%;
+  }
+
+  h1,
+  h2 {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  }
+
+  .flat-button {
+    position: relative;
+    color: #000;
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    background: #fff;
+    top: 33%;
+    left: 11%;
+    font-family: "Playfair Display", serif;
+    animation: ease-in-out 0.5s;
+    transition: 0.5s;
+    white-space: nowrap;
+    overflow: hidden;
+
+    &:hover,
+    &:focus {
+      box-shadow: inset 8em 0 0 0 adjust-hue(black, 90deg);
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}
