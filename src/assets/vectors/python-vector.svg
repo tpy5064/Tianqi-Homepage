@@ -1,0 +1,115 @@
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="600"
+      height="600"
+      version="1.1"
+      viewBox="0 0 600 600"
+    >
+      <g fillOpacity="1" display="inline">
+        <path
+          fill="#387eb8"
+          d="M300 190H120s-50 0-50 110 50 110 50 110h50v-50c0-40 30-70 70-70h119.934c30.066 0 50.066-20 50.48-50.48C410.828 209.04 410 120 410 120s0-50-110-50-110 50-110 50v50h110z"
+        ></path>
+        <path
+          fill="#ffc331"
+          d="M300 410h180s50 0 50-110-50-110-50-110h-50v50c0 40-30 70-70 70H240c-30 0-50 20-50 50v120s0 50 110 50 110-50 110-50v-50H300z"
+        ></path>
+        <circle cx="240" cy="120" r="20" fill="#fff"></circle>
+        <circle cx="360" cy="480" r="20" fill="#fff"></circle>
+      </g>
+      <g fillOpacity="1" display="none">
+        <path
+          fill="#387eb8"
+          d="M120 180s-60 0-60 120 60 120 60 120h60v-60c0-30 20-60 60-60h120c40 0 59.586-29.52 60-60 .414-30.48 0-120 0-120s.993-58.94-120-60c-120.993-1.06-120 60-120 60v60z"
+          display="inline"
+        ></path>
+        <path
+          fill="#ffc331"
+          d="M480 420s61.792-12.056 60.927-122.053C540 180 480 180 480 180h-60v60c0 30-20 60-60 60H240c-40 0-60 30-60 60v120s10 59.746 120 59.868C420 540 420 480 420 480v-60z"
+          display="inline"
+        ></path>
+      </g>
+      <g
+        strokeDasharray="none"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="20"
+        display="none"
+      >
+        <path
+          fill="none"
+          fillRule="evenodd"
+          stroke="#0f0"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          d="M180 180v-60s0-60 120-60 120 60 120 60v120c0 40-30 60-60 60H240c-30 0-60 20-60 60v120s0 60 120 60 120-60 120-60v-60"
+        ></path>
+        <path
+          fill="none"
+          fillRule="evenodd"
+          stroke="#0f0"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          d="M300 180H120s-60 0-60 120 60 120 60 120h60"
+        ></path>
+        <path
+          fill="none"
+          fillRule="evenodd"
+          stroke="#00fe00"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          d="M420 180h60s60 0 60 120-60 120-60 120H300"
+        ></path>
+        <circle
+          cx="240"
+          cy="120"
+          r="20"
+          fill="#0f0"
+          fillOpacity="1"
+          stroke="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          opacity="1"
+        ></circle>
+        <circle
+          cx="360"
+          cy="480"
+          r="20"
+          fill="#0f0"
+          fillOpacity="1"
+          stroke="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          opacity="1"
+        ></circle>
+      </g>
+      <g
+        stroke="#000"
+        strokeDasharray="none"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="0.6"
+        display="none"
+      >
+        <path d="M30 60h540"></path>
+        <path d="M150 120h300"></path>
+        <path d="M30 180h540"></path>
+        <path d="M330 240h120" display="inline"></path>
+        <path d="M30 300h540"></path>
+        <path d="M150 360h120" display="inline"></path>
+        <path d="M30 420h540"></path>
+        <path d="M150 480h300"></path>
+        <path d="M30 540h540"></path>
+        <path d="M60 30v540"></path>
+        <path d="M120 450V150"></path>
+        <path d="M180 30v540"></path>
+        <path d="M240 30v180"></path>
+        <path d="M240 270v120" display="inline"></path>
+        <path d="M300 30v540"></path>
+        <path d="M360 210v120" display="inline"></path>
+        <path d="M360 390v180"></path>
+        <path d="M420 30v540"></path>
+        <path d="M480 450V150"></path>
+        <path d="M540 30v540"></path>
+      </g>
+    </svg>

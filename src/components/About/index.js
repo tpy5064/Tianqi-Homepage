@@ -3,6 +3,11 @@ import Fade from "react-reveal/Fade";
 import Resume from "../../assets/docs/ResumeTianqiYang.pdf";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
+import reactIcon from '../../assets/vectors/react-vector.svg'
+import JSIcon from '../../assets/vectors/js-vector.svg'
+import pythonIcon from '../../assets/vectors/python-vector.svg'
+import scssIcon from '../../assets/vectors/scss-vector.svg'
+import cIcon from '../../assets/vectors/c-vector.svg'
 
 const About = () => {
   return (
@@ -35,31 +40,21 @@ const About = () => {
             </ul>
           </div>
           <div className="skills-container">
-            <div className="cards-container">
-              <div className="card">
-                <div className="card-header">
-                  <h2>React</h2>
-                </div>
+            <div className="skills-carousel">
+              <div className="carousel-item">
+                <img src={reactIcon} width='250' height='250' alt="React Icon" />
               </div>
-              <div className="card">
-                <div className="card-header">
-                  <h2>JavaScript</h2>
-                </div>
+              <div className="carousel-item">
+                <img src={JSIcon} alt="JavaScript Icon"  />
               </div>
-              <div className="card">
-                <div className="card-header">
-                  <h2>CSS</h2>
-                </div>
+              <div className="carousel-item">
+                <img src={pythonIcon} alt="Python Icon" />
               </div>
-              <div className="card">
-                <div className="card-header">
-                  <h2>Python</h2>
-                </div>
+              <div className="carousel-item">
+                <img src={scssIcon} alt="SCSS Icon" />
               </div>
-              <div className="card">
-                <div className="card-header">
-                  <h2>C</h2>
-                </div>
+              <div className="carousel-item">
+                <img src={cIcon} alt="C Icon" />
               </div>
             </div>
           </div>
